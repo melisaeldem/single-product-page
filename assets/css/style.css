@@ -1,0 +1,56 @@
+body {
+  font-family: Montserrat;
+}
+
+.header {
+  border-bottom: 2px solid #000;
+}
+
+header li a {
+  color: #929292;
+  font-weight: 500;
+}
+header .active {
+  color: #000;
+  border-bottom: 2px solid #000;
+  font-weight: 700;
+}
+header .search-box input {
+  border: 1px solid #000;
+  box-shadow: 3px 3px 0 0 #000;
+  width: 150px;
+}
+header .cart i {
+  color: #929292;
+}
+header .cart p {
+  font-weight: 500;
+  color: #929292;
+}
+
+.slider {
+  border: 2px solid #000;
+  box-shadow: 5px 5px 0 0 #000;
+  border-radius: 5px;
+}
+.slider .box {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 2px solid #000;
+  background-color: #fddc95;
+  height: 70px !important;
+}
+.slider .box h4 {
+  font-weight: 600;
+  position: relative;
+  top: 20px;
+  left: 12px;
+}
+.slider img {
+  width: 100%;
+}
+
+.mini-slayt img {
+  border-radius: 12px;
+  border: 2px solid #000;
+}

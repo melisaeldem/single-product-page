@@ -1,0 +1,64 @@
+$header-color: #929292;
+$black: #000;
+body {
+  font-family: Montserrat;
+}
+.header {
+  border-bottom: 2px solid $black;
+}
+header {
+  li {
+    a {
+      color: $header-color;
+      font-weight: 500;
+    }
+  }
+  .active {
+    color: $black;
+    border-bottom: 2px solid $black;
+    font-weight: 700;
+  }
+  .search-box {
+    input {
+      border: 1px solid $black;
+      box-shadow: 3px 3px 0 0 $black;
+      width: 150px;
+    }
+  }
+  .cart {
+    i {
+      color: $header-color;
+    }
+    p {
+      font-weight: 500;
+      color: $header-color;
+    }
+  }
+}
+.slider {
+  .box {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 2px solid $black;
+    background-color: #fddc95;
+    height: 70px !important;
+    h4{
+        font-weight: 600;
+        position: relative;
+        top: 20px;
+        left: 12px;
+    }
+  }
+  border: 2px solid $black;
+  box-shadow: 5px 5px 0 0 $black;
+  border-radius: 5px;
+ img{
+    width: 100%;
+ }
+ }
+ .mini-slayt{
+       img{
+        border-radius: 12px;
+        border: 2px solid $black;
+       }
+ }
